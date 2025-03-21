@@ -16,11 +16,11 @@
 # Enter the length of AC: 4
 
 # The length of BC (the hypotenuse) is: 5.0
-
+import math
 def main():
     ab = float(input("Enter the angle of AB: "))
     ac = float(input("Enter the angle of AC: "))
-    bc = (ab**2) + (ac**2)
+    bc = math.sqrt((ab**2) + (ac**2))
     print(f"The length of BC (the hypotenuse) is: {bc}")
     
 main()

@@ -19,7 +19,6 @@ def roll_dice():
     
 def main():
     die1:int = 10
-        
     print("die1 in main() in starts as ", str(die1))
     roll_dice()
     roll_dice()
