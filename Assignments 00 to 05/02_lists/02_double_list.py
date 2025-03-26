@@ -14,9 +14,10 @@ def double_number(lst):
         double_numbered.append(num)
     return double_numbered
 
-def main(lst):
+def main():
+    lst = [2,3,1,4,5]  
     double = double_number(lst)
     print(double)
     
-lst = [2,3,1,4,5]  
-main(lst)
+
+main()

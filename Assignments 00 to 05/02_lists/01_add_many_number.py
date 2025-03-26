@@ -7,10 +7,11 @@ def add_number(lst):
         total+=number
     return total
 
-def main(lst):
+def main():
+    lst = [1,3,3,4,5,6]
     sum = add_number(lst)
     print(f"The sum of all number is {sum}")
     
   
-lst = [1,3,3,4,5,6]  
-main(lst)
+ 
+main()
